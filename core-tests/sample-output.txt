@@ -1,0 +1,23 @@
+AstralHLE core 0.2.0
+Bound 498 imports (431 functions).
+Binary: armv6, minimum iOS not specified, decrypted
+Libraries: 17, entry point 0x00002000 (ARM)
+  [game] Airplay v3.7.0beta [188763u]: main thread r9 = 0x00000000
+
+RAM limit: 256 MB, game heap in use: 0 KB
+
+Run result: reached an import that is not implemented yet: _objc_msgSend (called from 0x00031468)
+  Objective-C message 'alloc' sent to _OBJC_CLASS_$_NSAutoreleasePool
+Instructions executed: 51, HLE calls: 2
+Last calls: _printf, _objc_msgSend
+AstralHLE core 0.2.0
+Bound 1006 imports (375 functions).
+Binary: armv6, minimum iOS not specified, decrypted
+Libraries: 11, entry point 0x0000ad24 (ARM)
+
+RAM limit: 256 MB, game heap in use: 0 KB
+
+Run result: reached an import that is not implemented yet: _objc_msgSend (called from 0x000ef09c)
+  Objective-C message 'alloc' sent to _OBJC_CLASS_$_NSAutoreleasePool
+Instructions executed: 9070, HLE calls: 3
+Last calls: ___cxa_atexit, ___cxa_atexit, _objc_msgSend
